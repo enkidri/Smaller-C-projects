@@ -1,3 +1,3 @@
-# Smaller-C++-projects
+# Smaller-cpp-projects
 
-Various project created with C++
+Various project created using C++
