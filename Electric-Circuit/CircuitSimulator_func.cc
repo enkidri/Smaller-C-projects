@@ -14,7 +14,7 @@ string Component::get_name() const
     return Name;
 }
 
-double Battery::get_voltage() const // kanske kan tas bort
+double Battery::get_voltage() const 
 {
     return voltage; 
 }
@@ -43,7 +43,7 @@ double Capacitor::get_current() const
     return current;
 }
 
-double Capacitor::get_charge() // här struntar vi i timestep då den enbart ska vara med i simulate
+double Capacitor::get_charge() 
 {
     double charge_temp{capacitance*(fabs(positive.voltage-negative.voltage)-charge)};
     return charge_temp;
